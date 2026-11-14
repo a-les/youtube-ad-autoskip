@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Dark squircle background (#161618) -->
+    <path
+        android:fillColor="#161618"
+        android:pathData="M24,4 h60 c11,0 20,9 20,20 v60 c0,11 -9,20 -20,20 h-60 c-11,0 -20,-9 -20,-20 v-60 c0,-11 9,-20 20,-20 z" />
+
+    <!-- Red YouTube Play triangle -->
+    <path
+        android:fillColor="#E50914"
+        android:pathData="M38,32 L78,54 L38,76 Z" />
+
+    <!-- White diagonal slash cutting across (crossed out) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32.5,77.5 C31.5,76.5 31.5,75 32.5,74 L74,32.5 C75,31.5 76.5,31.5 77.5,32.5 C78.5,33.5 78.5,35 77.5,36 L36,77.5 C35,78.5 33.5,78.5 32.5,77.5 Z" />
+</vector>

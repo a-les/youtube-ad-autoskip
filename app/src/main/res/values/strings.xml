@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">yt-ad-autoskip</string>
+    <string name="accessibility_service_name">yt-ad-autoskip Service</string>
+    <string name="accessibility_service_description">Автоматически нажимает кнопку «Пропустить» при появлении рекламы в официальном приложении YouTube. Не требует доступа в интернет и гарантирует полную конфиденциальность.</string>
+    
+    <!-- Status -->
+    <string name="status_working">Работает</string>
+    <string name="status_working_desc">Реклама автоматически пропускается</string>
+    <string name="status_stopped">Остановлено</string>
+    <string name="status_stopped_desc">Служба выключена в спец. возможностях</string>
+    
+    <!-- Action buttons -->
+    <string name="btn_stop_service">❚❚ Остановить службу</string>
+    <string name="btn_start_service">▶ Запустить службу</string>
+    
+    <!-- Stats -->
+    <string name="stats_ads_skipped">Реклам обработано</string>
+    <string name="stats_uptime">Время работы</string>
+    <string name="stats_last_active">Последняя активность</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="pref_auto_skip_title">Автопропуск рекламы</string>
+    <string name="pref_auto_skip_summary">Мгновенно пропускать рекламу в YouTube</string>
+    
+    <string name="pref_yt_music_title">Поддержка YouTube Music</string>
+    <string name="pref_yt_music_summary">Пропускать рекламу в YouTube Music</string>
+
+    <!-- Info -->
+    <string name="info_title">Информация</string>
+    <string name="info_all_good">Приложение в порядке!</string>
+    <string name="info_all_good_desc">Всё работает корректно</string>
+    <string name="info_app_version">О приложении</string>
+    <string name="info_privacy">Политика конфиденциальности</string>
+    <string name="info_licenses">Лицензии</string>
+    <string name="info_disclaimer">Приложение работает только с YouTube и YouTube Music.</string>
+</resources>

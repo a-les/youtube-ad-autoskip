@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Ensure gradlew has LF line endings
+gradlew text eol=lf
+*.bat text eol=crlf

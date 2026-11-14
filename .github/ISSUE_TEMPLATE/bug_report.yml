@@ -1,0 +1,72 @@
+name: Bug Report
+description: Create a report to help us improve yt-ad-autoskip
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please check if the issue has already been reported before submitting.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: The skip button appears, but the service does not click it...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open YouTube app
+        2. Start playing a video with an unskippable 5s ad
+        3. Wait for the skip button to appear
+    validations:
+      required: true
+
+  - type: dropdown
+    id: android_version
+    attributes:
+      label: Android Version
+      description: What version of Android is your device running?
+      options:
+        - Android 15
+        - Android 14
+        - Android 13
+        - Android 12 / 12L
+        - Android 11
+        - Android 10
+        - Android 9 or older
+    validations:
+      required: true
+
+  - type: input
+    id: device_model
+    attributes:
+      label: Device Model & OEM OS
+      description: Example - Xiaomi 13 (HyperOS 1.0), Samsung Galaxy S23 (OneUI 6.1), Pixel 8 (Stock)
+      placeholder: e.g., Pixel 8 Pro
+    validations:
+      required: true
+
+  - type: input
+    id: youtube_version
+    attributes:
+      label: YouTube App Version
+      description: Check version under App Info -> YouTube
+      placeholder: e.g., 19.45.36
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs / Screenshots
+      description: Attach logcat output or screenshots demonstrating the behavior.
+    validations:
+      required: false
